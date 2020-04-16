@@ -3,10 +3,10 @@ package com.bridgelabz.cabInvoiceGenerator;
 public class InvoiceSummary {
 
     double avgFare;
-    int totalFare;
+    double totalFare;
     double numOfRides;
 
-    public InvoiceSummary(double numOfRides, int totalFare) {
+    public InvoiceSummary(double numOfRides,  double totalFare) {
         this.numOfRides = numOfRides;
         this.totalFare = totalFare;
         this.avgFare = this.numOfRides / this.totalFare;
